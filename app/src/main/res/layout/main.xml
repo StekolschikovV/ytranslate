@@ -26,13 +26,19 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/textViewTranslatedText"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:text="dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf dsfdsf "
+            android:elegantTextHeight="false"
+            android:editable="false"
+            android:enabled="false"
+            android:textStyle="italic" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn"
             android:layout_gravity="right"
-            android:id="@+id/btnTranslate" />
+            android:id="@+id/btnTranslate"
+            android:layout_marginTop="20pt" />
     </LinearLayout>
 </RelativeLayout>
